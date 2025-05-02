@@ -2,13 +2,16 @@ Baza danych firmy kurierskiej
 Projekt studencki polegający na zaprojektowaniu relacyjnej bazy danych dla firmy kurierskiej. Projekt wykonany w ramach zajęć z baz danych.
 
 Technologie
+
     MySQL
     SQL
 
 Pliki
+
     db_schema.sql – zawiera pełną definicję struktury bazy danych
 
 Opis bazy danych
+
     Baza danych opisuje firmę kurierską i zawiera wszystkie potrzebne tabele, widoki, procedury i funkcje do zarządzania przesyłkami.
 
 Tabele
