@@ -12,6 +12,7 @@ Opis bazy danych
     Baza danych opisuje firmę kurierską i zawiera wszystkie potrzebne tabele, widoki, procedury i funkcje do zarządzania przesyłkami.
 
 Tabele
+
     klient – dane klientów (imię, nazwisko, adres, e-mail)
 
     kurier – lista kurierów (imię, nazwisko, numer prawa jazdy)
@@ -37,11 +38,13 @@ Tabele
     statystyki_produktow – ile razy dany produkt był zamawiany i za jaką kwotę
 
 Widoki
+
     analiza_zamowien_miesieczna – miesięczne zestawienie zamówień, liczby klientów, średniej wagi, wartości produktów, procentu opłaconych przesyłek
 
     statystyki_klientow – podsumowanie dla każdego klienta: liczba zamówień, suma wartości, średnia cena produktu, liczba różnych produktów, daty pierwszego i ostatniego zamówienia
 
 Procedury i funkcje
+
     Dodawanie zamówienia
 
     Aktualizacja statystyk produktów
@@ -57,6 +60,7 @@ Procedury i funkcje
     Planowanie trasy kuriera
 
 Triggery
+
     Blokada usunięcia klienta z aktywnymi zamówieniami
 
     Sprawdzanie wagi paczki przy dodawaniu zamówienia
